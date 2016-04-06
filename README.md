@@ -4,7 +4,6 @@
   虽然很不习惯,但是还是得适应.
 2.从xcode7开始,苹果默认不支持http请求,如果想让你的请求支持http,需要进行相关配置.
   方式一: 使用文本编辑Info.plist, 在当中添加:
-  <!--回到过去不安全的HTTP网络请求，能任意进行HTTP请求 (不建议这样做, 原因见下文)-->
 <key>NSAppTransportSecurity</key>
 <dict>
   <key>NSAllowsArbitraryLoads</key>
